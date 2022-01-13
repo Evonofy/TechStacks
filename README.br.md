@@ -24,6 +24,8 @@ Essa stack foi criada para fazer o processo de preparar um projeto com pouco esf
  <ul>
   <li><a target="_blank" href="https://astro.build/"><i>Astro</i></a></li>
    
+  <li><a target="_blank" href="https://yarnpkg.com/"><i>Yarn</i></a></li>
+   
   <li><a target="_blank" href="https://github.com/commitizen/cz-cli"><i>Commitizien</i></a></li>
    
   <li><a target="_blank" href="https://stylelint.io/"><i>StyleLint</i></a>
