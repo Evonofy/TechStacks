@@ -7,12 +7,12 @@
 <h2>Table Of Contents</h2>
 
 - [Purpose](#purpose)
-- [Technologies](#technologies)
+- [Technologies And Packages](#technologies-and-packages)
 
 <h3>Purpose</h3>
 This stack was created to make the process of preparing a project more effortless. Cloning this specially made stack to your project will make everything easier and more efficient.
 
-<h3>Technologies</h3>
+<h3>Technologies And Packages</h3>
 <div style="display: block"> 
    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"><img align="center" alt="HTML5" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"></a>
    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img align="center" alt="CSS3" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"></a>
@@ -20,12 +20,24 @@ This stack was created to make the process of preparing a project more effortles
    <a target="_blank" href="https://www.javascript.com/"><img align="center" alt="JS" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"></a>
    <a target="_blank" href="https://www.typescriptlang.org/"><img align="center" alt="TS" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg"></a>
 </div>
----- <br>
-
-  <a target="_blank" href="https://astro.build/"><i>Astro</i></a>
-  <br>
-  <a target="_blank" href="https://stylelint.io/"><i>StyleLint</i></a>
-  <br>
-  <a target="_blank" href="https://postcss.org/"><i>PostCSS (+ SCSS)</i></a>
-  <br>
-  <a target="_blank" href="https://github.com/commitizen/cz-cli"><i>Commitizien</i></a>
+<br>
+ <ul>
+  <li><a target="_blank" href="https://astro.build/"><i>Astro</i></a></li>
+   
+  <li><a target="_blank" href="https://github.com/commitizen/cz-cli"><i>Commitizien</i></a></li>
+   
+  <li><a target="_blank" href="https://stylelint.io/"><i>StyleLint</i></a>
+    <ul>
+       <li><a target="_blank" href="https://www.npmjs.com/package/stylelint-config-prettier"><i>StyleLint Config Prettier</i></a></li>
+       <li><a target="_blank" href="https://www.npmjs.com/package/stylelint-scss"><i>StyleLint SCSS</i></a></li>
+       <li><a target="_blank" href="https://www.npmjs.com/package/stylelint-config-recommended-scss"><i>StyleLint Recomended SCSS</i></a></li>
+      </ul>
+   </li>
+   
+  <li><a target="_blank" href="https://postcss.org/"><i>PostCSS</i></a>
+     <ul>
+        <li><a target="_blank" href="https://www.npmjs.com/package/postcss-scss?activeTab=dependents"><i>PostCSS SCSS</i></a></li>
+     </ul>
+   </li>
+   
+</ul>
