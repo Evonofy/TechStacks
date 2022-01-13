@@ -24,6 +24,8 @@ This stack was created to make the process of preparing a project more effortles
  <ul>
   <li><a target="_blank" href="https://astro.build/"><i>Astro</i></a></li>
    
+  <li><a target="_blank" href="https://yarnpkg.com/"><i>Yarn</i></a></li>
+   
   <li><a target="_blank" href="https://github.com/commitizen/cz-cli"><i>Commitizien</i></a></li>
    
   <li><a target="_blank" href="https://stylelint.io/"><i>StyleLint</i></a>
