@@ -28,13 +28,7 @@ This stack was created to make the process of preparing a project more effortles
    
   <li><a target="_blank" href="https://github.com/commitizen/cz-cli"><i>Commitizien</i></a></li>
    
-  <li><a target="_blank" href="https://stylelint.io/"><i>StyleLint</i></a>
-    <ul>
-       <li><a target="_blank" href="https://www.npmjs.com/package/stylelint-config-prettier"><i>StyleLint Config Prettier</i></a></li>
-       <li><a target="_blank" href="https://www.npmjs.com/package/stylelint-scss"><i>StyleLint SCSS</i></a></li>
-       <li><a target="_blank" href="https://www.npmjs.com/package/stylelint-config-recommended-scss"><i>StyleLint Recomended SCSS</i></a></li>
-      </ul>
-   </li>
+  <li><a target="_blank" href="https://stylelint.io/"><i>StyleLint</i></a></li>
    
   <li><a target="_blank" href="https://postcss.org/"><i>PostCSS</i></a>
      <ul>
