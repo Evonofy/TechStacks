@@ -1,0 +1,10 @@
+{
+  "name": "techstacks",
+  "version": "0.0.1",
+  "repository": "https://github.com/NeoFlorescence/TechStacks.git",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "stacks/*"
+  ]
+}
