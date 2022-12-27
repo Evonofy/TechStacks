@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+:root {
+  @for $i from 1 through 14 {
+    --spacer-#{$i}: #{$i / 4}rem;
+  }
+
+  --border-radius-xm: 2.5px;
+  --border-radius-sm: 5px;
+  --border-radius-md: 10px;
+  --border-radius-lg: 20px;
+  --border-radius-full: 100px;
+
+  --border-width-thin: 1px;
+  --border-width-hev: 0.5rem;
+
+  --motion-default: 0ms;
+  --motion-faster: 100ms;
+  --motion-fast: 200ms;
+  --motion-normal: 300ms;
+  --motion-slow: 400ms;
+  --motion-slower: 500ms;
+
+  --z-index-default: 1;
+  --z-index-lowest: 10;
+  --z-index-low: 20;
+  --z-index-normal: 30;
+  --z-index-high: 40;
+  --z-index-highest: 50;
+
+  --font-family-reading: "Montserrat";
+
+  --fs-xs: 12px;
+  --fs-md: 16px;
+  --fs-xl: 20px;
+  --fs-2xl: 24px;
+  --fs-4xl: 32px;
+  --fs-5xl: 40px;
+  --fs-6xl: 48px;
+
+  --h1: var(--fs-4xl);
+  --h2: var(--fs-2xl);
+  --h3: var(--fs-xl);
+  --p: var(--fs-md);
+  --sub: var(--fs-xs);
+
+  @media screen and (min-width: 768px) {
+    --h1: var(--fs-5xl);
+    --h2: var(--fs-4xl);
+    --h3: var(--fs-2xl);
+  }
+
+  @media screen and (min-width: 1024px) {
+    --h1: var(--fs-6xl);
+    --h2: var(--fs-5xl);
+    --h3: var(--fs-4xl);
+    --p: var(--fs-xl);
+  }
+
+  --accent-light: hsl(185, 100%, 70%);
+  --accent-base: hsl(185, 100%, 35%);
+  --accent-darker: hsl(185, 60%, 55%);
+  --accent-darkest: hsl(185, 45%, 20%);
+
+  --secondary-light: hsl(240, 100%, 70%);
+  --secondary-base: hsl(240, 100%, 35%);
+  --secondary-darker: hsl(240, 60%, 55%);
+  --secondary-darkest: hsl(240, 45%, 20%);
+
+  --success-light: hsl(145, 100%, 45%);
+  --success-base: hsl(145, 60%, 35%);
+  --success-darker: hsl(145, 60%, 10%);
+
+  --danger-light: hsl(5, 100%, 60%);
+  --danger-base: hsl(5, 75%, 50%);
+  --danger-darker: hsl(5, 60%, 15%);
+
+  --warning-light: hsl(30, 100%, 60%);
+  --warning-base: hsl(30, 85%, 50%);
+  --warning-darker: hsl(30, 70%, 10%);
+
+  --gray-100: hsl(0, 0%, 95%);
+  --gray-200: hsl(0, 0%, 85%);
+  --gray-300: hsl(0, 0%, 75%);
+  --gray-400: hsl(0, 0%, 65%);
+  --gray-500: hsl(0, 0%, 55%);
+  --gray-600: hsl(0, 0%, 45%);
+  --gray-700: hsl(0, 0%, 35%);
+  --gray-800: hsl(0, 0%, 25%);
+  --gray-900: hsl(0, 0%, 10%);
+
+  --black: hsl(0, 0%, 0%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: var(--font-family-reading), Arial, Helvetica, sans-serif;
+}
