@@ -1,24 +1,14 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@use 'reset' as *;
 
-input,
-select,
-textarea,
-button {
-  border: none;
-  outline: none;
-  background: transparent;
-  cursor: pointer;
-}
+// Components
+@use './components/header' as *;
 
 :root {
   @for $i from 1 through 14 {
     --spacer-#{$i}: #{$i / 4}rem;
   }
 
+  // Border Radius
   --border-radius-xm: 2.5px;
   --border-radius-sm: 5px;
   --border-radius-md: 10px;
@@ -28,6 +18,7 @@ button {
   --border-width-thin: 1px;
   --border-width-hev: 0.5rem;
 
+  // Animations
   --motion-default: 0ms;
   --motion-faster: 100ms;
   --motion-fast: 200ms;
@@ -35,6 +26,7 @@ button {
   --motion-slow: 400ms;
   --motion-slower: 500ms;
 
+  // Z-Indexes
   --z-index-default: 1;
   --z-index-lowest: 10;
   --z-index-low: 20;
@@ -42,8 +34,10 @@ button {
   --z-index-high: 40;
   --z-index-highest: 50;
 
-  --font-family-reading: "Montserrat";
+  // Typography Selection
+  --ff-reading: 'Montserrat', sans-serif;
 
+  // Typography Sizes
   --fs-xs: 12px;
   --fs-md: 16px;
   --fs-xl: 20px;
@@ -83,15 +77,11 @@ button {
 
   --success-light: hsl(145, 100%, 45%);
   --success-base: hsl(145, 60%, 35%);
-  --success-darker: hsl(145, 60%, 10%);
-
-  --danger-light: hsl(5, 100%, 60%);
-  --danger-base: hsl(5, 75%, 50%);
-  --danger-darker: hsl(5, 60%, 15%);
-
   --warning-light: hsl(30, 100%, 60%);
   --warning-base: hsl(30, 85%, 50%);
   --warning-darker: hsl(30, 70%, 10%);
+
+  --bg-primary: hsl(0, 0%, 80%);
 
   --gray-100: hsl(0, 0%, 95%);
   --gray-200: hsl(0, 0%, 85%);
