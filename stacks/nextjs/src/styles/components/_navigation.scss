@@ -1,0 +1,9 @@
+// Select classes in the navigation.tsx component a style beyond the default values HERE. Don't touch the _radixnavmenudefault.scss file.
+
+.NavigationMenuRoot {
+    display: none !important;
+
+    @media screen and (min-width: 768px) {
+        display: flex !important;
+    }
+}
